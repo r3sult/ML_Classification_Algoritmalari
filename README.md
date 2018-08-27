@@ -1,0 +1,2 @@
+# ML_Classification_Algoritmalari
+Makine öğrenmesinde kullanılan sınıflandırma algoritmaları
