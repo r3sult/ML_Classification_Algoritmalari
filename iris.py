@@ -103,7 +103,7 @@ def Svc (X_train,y_train,X_test):
     
     from sklearn.svm import SVC
 
-    svc = SVC(kernel="linear")
+    svc = SVC(kernel="rbf")
     svc.fit(X_train,y_train)
     y_pred = svc.predict(X_test)
     return y_pred
